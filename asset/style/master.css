@@ -10,7 +10,7 @@
 .main>h2, .main>footer{
     width: 100%;
     height: 10%;
-    background-color:#dfd3c3;
+    background-color:#cacaca;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,36 +48,59 @@
 .c>div:nth-of-type(2),
 .c>div:nth-of-type(4),
 .c>div:nth-of-type(6),
-.c>div:nth-of-type(7),    
-.s>div:nth-of-type(1),    
-.s>div:nth-of-type(2),    
-.s>div:nth-of-type(4),    
-.s>div:nth-of-type(6),    
-.s>div:nth-of-type(7),    
-.s>div:nth-of-type(10),    
-.s>div:nth-of-type(11),  
+.c>div:nth-of-type(7) 
+{
+    background-color: purple; 
+}
+.s1>div:nth-of-type(1),    
+.s1>div:nth-of-type(2),    
+.s1>div:nth-of-type(4),    
+.s1>div:nth-of-type(6),    
+.s1>div:nth-of-type(7),    
+.s1>div:nth-of-type(10),    
+.s1>div:nth-of-type(11){
+    background-color: orange;
+}
+.s2>div:nth-of-type(1),    
+.s2>div:nth-of-type(2),    
+.s2>div:nth-of-type(4),    
+.s2>div:nth-of-type(6),    
+.s2>div:nth-of-type(7),    
+.s2>div:nth-of-type(10),    
+.s2>div:nth-of-type(11){
+    background-color: rgb(229, 1, 210);
+}
 .g>div:nth-of-type(1),  
 .g>div:nth-of-type(2),  
 .g>div:nth-of-type(4),  
 .g>div:nth-of-type(7),
 .g>div:nth-of-type(8),
-.g>div:nth-of-type(10),
+.g>div:nth-of-type(10)
+{
+    background-color: rgb(0, 102, 255);
+}
 .r>div:nth-of-type(1),
 .r>div:nth-of-type(2),
 .r>div:nth-of-type(4),
 .r>div:nth-of-type(5),
 .r>div:nth-of-type(6),
-.r>div:nth-of-type(8),
+.r>div:nth-of-type(8)
+{
+    background-color: rgb(0, 199, 103);
+}
 .i>div:nth-of-type(1),
 .i>div:nth-of-type(3),
-.i>div:nth-of-type(5),
+.i>div:nth-of-type(5)
+{
+    background-color: rgb(201, 0, 34);
+}
 .d>div:nth-of-type(1),
 .d>div:nth-of-type(2),
 .d>div:nth-of-type(4),
-.d>div:nth-of-type(5)
-{
-    background-color: #855970; 
+.d>div:nth-of-type(5){
+    background-color: gold;
 }
+
 .c>div:nth-of-type(1),
 .s>div:nth-of-type(1),
 .g>div:nth-of-type(1),
